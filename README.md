@@ -87,22 +87,22 @@ Add the below snippet of code to your Function.  The below region should be the 
 #endregion WalkThrough (Dynamic Help)
 ```
 
-* **EXAMPLE #1**
+* **EXAMPLE #1**<br>
 **Command:** <Verb-Function_Name> -Help<br>
 **Description:** Call your Function with the Alias -Help to display the interactive help menu<br>
 **Notes:**<br>
 <br>
-* **EXAMPLE #2**
+* **EXAMPLE #2**<br>
 **Command:** <Verb-Function_Name> -WalkThrough<br>
 **Description:** Call your Function with the Parameter -WalkThrough to display the interactive help menu<br>
 **Notes:**<br>
 <br>
-* **EXAMPLE #3**
+* **EXAMPLE #3**<br>
 **Command:** Invoke-WalkThrough -Name <Verb-Function_Name><br>
 **Description:** This will start the Dynamic help menu system on the called function<br>
 **Notes:**<br>
 <br>
-* **EXAMPLE #4**
+* **EXAMPLE #4**<br>
 **Command:** Invoke-WalkThrough -Name <Verb-Function_Name> -RemoveRun<br>
 **Description:** This will start the Dynamic help menu system on the called function<br>
 **Notes:** The menu system item ( Run ) will be disabled<br>
