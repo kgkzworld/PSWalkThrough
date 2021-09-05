@@ -88,25 +88,21 @@ Add the below snippet of code to your Function.  The below region should be the 
 ```
 
 * **EXAMPLE #1**
-<br>
 **Command:** <Verb-Function_Name> -Help<br>
 **Description:** Call your Function with the Alias -Help to display the interactive help menu<br>
 **Notes:**<br>
-
-* **EXAMPLE #2**
 <br>
+* **EXAMPLE #2**
 **Command:** <Verb-Function_Name> -WalkThrough<br>
 **Description:** Call your Function with the Parameter -WalkThrough to display the interactive help menu<br>
 **Notes:**<br>
-
-* **EXAMPLE #3**
 <br>
+* **EXAMPLE #3**
 **Command:** Invoke-WalkThrough -Name <Verb-Function_Name><br>
 **Description:** This will start the Dynamic help menu system on the called function<br>
 **Notes:**<br>
-
-* **EXAMPLE #4**
 <br>
+* **EXAMPLE #4**
 **Command:** Invoke-WalkThrough -Name <Verb-Function_Name> -RemoveRun<br>
 **Description:** This will start the Dynamic help menu system on the called function<br>
 **Notes:** The menu system item ( Run ) will be disabled<br>
