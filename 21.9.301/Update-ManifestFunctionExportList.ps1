@@ -13,7 +13,7 @@
             $null
         )
         {
-            {$MyInvocation.MyCommand.Path}
+            {$MyInvocation.MyCommand.Source}
             {
                 $Path =  = $($MyInvocation.MyCommand.Path | Split-Path -Parent)
                 Break
@@ -50,8 +50,10 @@
             $PrivateFunctionList
         )
         {
-            Update-ModuleManifest -Path $ManifestPath -FunctionsToExport @($PrivateFunctionList)
-            Write-Host "Updated Manifest: $Path" -ForegroundColor Green
+            Update-ModuleManifest -Path $ManifestPath -FunctionsToExport $PrivateFunctionList
+            Write-Host "`nUpdated Manifest: $ManifestPath" -ForegroundColor Green
+            Write-Host "`n* Function List`n" -ForegroundColor Yellow
+            $PrivateFunctionList
         }
         Else
         {
